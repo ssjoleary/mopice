@@ -1,0 +1,10 @@
+mopice:
+  image: ssjoleary/mopice:0.1.0
+  ports:
+    - "8000:8000"
+    - "6600:6600"
+    - "6680:6680"
+  volumes:
+    - .resources/mopidy.conf:/var/lib/mopidy/.config/mopidy/mopidy.conf
+    - .resources/silence.ogg:/usr/share/icecast/silence.ogg
+    - .resources/icecast.xml:/usr/share/icecast/icecast.xml
