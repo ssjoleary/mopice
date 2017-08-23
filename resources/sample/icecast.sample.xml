@@ -64,7 +64,7 @@
     </listen-socket>
     <mount>
         <mount-name>/{{icecast_mount_name}}</mount-name>
-        <fallback-mount>silence.ogg</fallback-mount>
+        <fallback-mount>silence.mp3</fallback-mount>
         <fallback-override>1</fallback-override>
     </mount>
     <!--
