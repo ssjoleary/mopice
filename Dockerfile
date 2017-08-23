@@ -5,7 +5,7 @@ ARG group=audio
 
 # Default configuration
 COPY resources/mopidy.conf /var/lib/mopidy/.config/mopidy/mopidy.conf
-COPY resources/silence.ogg /usr/share/icecast2/silence.ogg
+COPY resources/silence.mp3 /usr/share/icecast2/silence.mp3
 COPY resources/icecast.xml /usr/share/icecast2/icecast.xml
 
 # Start helper script
