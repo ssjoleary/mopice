@@ -6,5 +6,5 @@ mopice:
     - "6680:6680"
   volumes:
     - .resources/mopidy.conf:/var/lib/mopidy/.config/mopidy/mopidy.conf
-    - .resources/silence.mp3:/usr/share/icecast/silence.mp3
-    - .resources/icecast.xml:/usr/share/icecast/icecast.xml
+    - .resources/silence.mp3:/usr/share/icecast2/silence.mp3
+    - .resources/icecast.xml:/usr/share/icecast2/icecast.xml
